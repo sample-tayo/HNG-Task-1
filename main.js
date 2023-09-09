@@ -13,7 +13,7 @@ const currentUTCTime = currentDate.getTime();
 
 document.querySelector(
   '[data-testid="currentDayOfTheWeek"]'
-).textContent = `Current Day: ${currentDayOfWeek}`;
+).textContent = `${currentDayOfWeek}`;
 document.querySelector(
   '[data-testid="currentUTCTime"]'
-).textContent = `Current UTC Time: ${currentUTCTime} ms`;
+).textContent = `${currentUTCTime}`;
